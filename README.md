@@ -1,8 +1,8 @@
 # Node.js-RestFul-API
 My resful api
 
-| Route | HTTP Verb	 | 	  Description	 |
-| --- | --- | --- | --- |
+| Route | HTTP Verb	 |  Description	 |
+| --- | --- | --- |
 | /api/products | `GET` |  List all products. |
 | /api/products | `POST` | Create a new product |
 | /api/products/:_id | `GET` |  Get a product. |
