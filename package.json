@@ -1,0 +1,31 @@
+{
+  "name": "nodevepostgre",
+  "version": "1.0.0",
+  "description": "nodejs-express-sequelizejs-postgresql",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "keywords": [
+    "Node&Postgre:CrudIslemleri"
+  ],
+  "author": "emrebaris",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.88.0",
+    "sequelize": "^4.37.6",
+    "should": "^13.2.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.2.0",
+    "sequelize-test-helpers": "^1.0.9",
+    "supertest": "^3.4.2"
+  }
+}
