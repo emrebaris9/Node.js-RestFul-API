@@ -17,3 +17,12 @@ My resful api
 | /api/topics/:_id | `GET` |  Get a topic. |
 | /api/topics/:_id | `PUT` | Update a topic with new info. |
 | /api/topics/:_id | `DELETE` | Delete a topic. |
+
+| Route | HTTP Verb	 |  Description	 |
+| --- | --- | --- |
+| /api/comments | `GET` |  List all comments. |
+| /api/comments | `POST` | Create a new comment |
+| /api/comments/:_id | `GET` |  Get a comment. |
+| /api/comments/:_id | `PUT` | Update a comment with new info. |
+| /api/comments/:_id | `DELETE` | Delete a comment. |
+
