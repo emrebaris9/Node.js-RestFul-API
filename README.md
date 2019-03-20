@@ -26,3 +26,11 @@ My resful api
 | /api/comments/:_id | `PUT` | Update a comment with new info. |
 | /api/comments/:_id | `DELETE` | Delete a comment. |
 
+| Route | HTTP Verb	 |  Description	 |
+| --- | --- | --- |
+| /api/contacts | `GET` |  List all contacts. |
+| /api/contacts | `POST` | Create a new contact |
+| /api/contacts/:_id | `GET` |  Get a contact. |
+| /api/contacts/:_id | `PUT` | Update a contact with new info. |
+| /api/contacts/:_id | `DELETE` | Delete a contact. |
+
